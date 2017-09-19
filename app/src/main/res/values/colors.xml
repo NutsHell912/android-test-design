@@ -1,0 +1,14 @@
+<resources>
+    <color name="black">#333333</color>
+    <color name="brownish_grey">#6e6e6e</color>
+    <color name="white">#ffffff</color>
+    <color name="white_two">#f4f4f4</color>
+    <color name="dark_sky_blue">#4e92df</color>
+    <color name="greyish_brown">#414141</color>
+    <color name="black_12">#1e000000</color>
+    <color name="tangerine">#ff9b00</color>
+    <color name="dark_sky_blue_two">#4a90e2</color>
+    <color name="warm_grey">#797979</color>
+    <color name="white_three">#ebebeb</color>
+    <color name="white_four">#ebebeb</color>
+</resources>

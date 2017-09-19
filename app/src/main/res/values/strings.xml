@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestDesign</string>
+    <string name="title">Авторизация</string>
+
+    <string name="sign_in">Регистрация(заглушка)</string>
+    <string name="forget">Восстановление пароля(заглушка)</string>
+
+    <string name="action_create">СОЗДАТЬ</string>
+
+    <string name="email_hint">Электронная почта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="button_text">Войти</string>
+
+
+    <string name="wrong_email">Неверный формат email</string>
+    <string name="wrong_password">Пароль должен быть минимум 6 символов, должен обязательно содержать минимум 1 строчную букву, 1 заглавную, и 1 цифру</string>
+    <string name="wrong_username_and_password">Неверное имя пользователя и пароль</string>
+
+</resources>
