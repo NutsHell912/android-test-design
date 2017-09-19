@@ -3,6 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.test.nutshell.logintest.ui.stab.StabForgetActivity">
+    tools:context="com.test.nutshell.logintest.ui.stub.StubSignUpActivity">
 
 </android.support.constraint.ConstraintLayout>

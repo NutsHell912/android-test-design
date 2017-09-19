@@ -13,8 +13,8 @@ import com.test.nutshell.logintest.injection.component.ActivityComponent;
 import com.test.nutshell.logintest.injection.component.ConfigPersistentComponent;
 import com.test.nutshell.logintest.injection.component.DaggerConfigPersistentComponent;
 import com.test.nutshell.logintest.injection.module.ActivityModule;
-import com.test.nutshell.logintest.ui.stab.StabForgetActivity;
-import com.test.nutshell.logintest.ui.stab.StabSignUpActivity;
+import com.test.nutshell.logintest.ui.stub.StubForgetActivity;
+import com.test.nutshell.logintest.ui.stub.StubSignUpActivity;
 
 /**
  * Abstract activity that every other Activity in this application must implement. It handles
@@ -70,13 +70,13 @@ public class BaseActivity extends AppCompatActivity implements MvpView {
 
     @Override
     public void navigateToSignUpActivity() {
-        Intent intent = new Intent(this, StabSignUpActivity.class);
+        Intent intent = new Intent(this, StubSignUpActivity.class);
         startActivity(intent);
     }
 
     @Override
     public void navigateToForgetActivity() {
-        Intent intent = new Intent(this, StabForgetActivity.class);
+        Intent intent = new Intent(this, StubForgetActivity.class);
         startActivity(intent);
     }
 }

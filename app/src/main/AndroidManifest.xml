@@ -21,10 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.stab.StabForgetActivity"
+        <activity android:name=".ui.stub.StubForgetActivity"
             android:label="@string/forget"
             />
-        <activity android:name=".ui.stab.StabSignUpActivity"
+        <activity android:name=".ui.stub.StubSignUpActivity"
             android:label="@string/sign_in"
             />
     </application>
